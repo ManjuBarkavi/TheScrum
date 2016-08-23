@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TODO PAGE</title>
+<link href="css/todo.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet'>
+</head>
+ <body>
+  
+
+<div class="container">
+  
+  <div class="column">
+       <center>
+       <p>
+       <label for="new-task">Add Item</label>
+       </center>
+ <input id="new-task" type="text">
+<br>
+<br>
+    <center>
+    <button class="button button-primary">Add</button></center>
+        </p>
+      </div>
+      
+  <div class="column">
+    <h3><center>Todo</center></h3>
+    <div class="left">
+    <ul class="choose">
+      <ul id="incomplete-tasks">
+       </ul>
+    </ul>
+  </div>
+   </div>
+
+
+  <div class="arrow">
+<span class="adding" data-value="add">&gt;</span>
+ <span class="removing" data-value="remove">&lt;</span>
+  </div>
+
+
+  <div class="column">
+    <h3><center>Onprocess</center></h3>
+    <div class="left-right">
+    <ul class="choose">
+    <ul id="tasktocomplete-tasks"> 
+      </ul>
+    </ul>
+  </div>
+   </div>
+
+<div class="arrow">
+<span class="adding" data-value="add">&gt;</span>
+<span class="removing" data-value="remove">&lt;</span>
+  </div>
+
+       <div class="column">
+      <div class= "right">
+      <h3><center>Done</center></h3>
+        <ul class="choose">
+      <ul id="completed-tasks"> 
+      </ul>
+        </ul>
+    </div>
+   </div>
+
+   </div>
+    <script type="text/javascript" src="js/todo.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
+   
+  
+  </body>
+  
+  </html>
